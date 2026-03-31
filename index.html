@@ -1,171 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>localify</title>
-</head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/*Header Style */
-header {
-  background-color: #0b02b0;
-  padding: 40px;
-
-  font-size: 15px;
-  color: white;
-}
-
-/* Create two columns that floats next to each other */
-nav {
-  float: left;
-  width: 40%;
-  height: 360px; /* only for demonstration, should be removed */
-  background: #ccc;
-  padding: 20px;
-}
-
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-article {
-  float: left;
-  padding: 20px;
-  width: 60%;
-  background-color: #f1f1f1;
-  height: 360px; /* only for demonstration, should be removed */
-}
-
-/* Clear floats after the columns */
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the footer */
-footer {
-  background-color: #0b02b0;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
-
-.button {
-  background-color: #ffffff;
-  border: none;
-  color: rgb(16, 5, 138);
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-.button1 {border-radius: 2px;}
-.button2 {border-radius: 4px;}
-.button3 {border-radius: 8px;}
-.button4 {border-radius: 12px;}
-.button5 {border-radius: 50%;}
-</style>
-</head>
-
 <header>
 <h1>Localify</h1>
- <button class="button button4"onclick=document.location='file:///C:/Users/User/Documents/GitHub/Localify/index.html'>Home</button>
-<button class="button button4"onclick=document.location='file:///C:/Users/User/Documents/GitHub/Localify/services.html'>Services</button>
-<button class="button button4"onclick=document.location='file:///C:/Users/User/Documents/GitHub/Localify/Blog.html'>Blog</button>
-<button class="button button4"onclick=document.location='file:///C:/Users/User/Documents/GitHub/Localify/Contact%20Us.html'>Contact Us</button>
+<a href="index.html">Home</a>
+ <a href="services.html">Services</a>
+<a href="Blog.html">Blog</a>
+<a href="Contact Us.html">Contact Us</a>
 </header>
-
-<section>
-  <nav>
+<br>
+<br>
     <img src="Images/IWED-COVER-PAGE-1.jpg" alt="Localify hero image" width="500" height="333">
-  </nav>
-  
-  <article>
     <h1>About Us</h1>
     <p>Localify: Empowering South African Entrepreneurs, One Click at a Time.</p>
     <p>Established in 2026, Localify was born from a simple yet powerful belief: the heart of South Africa’s economy beats in its local businesses. We are a web-based service dedicated to leveling the playing field, giving local shop owners the tools they need to stand toe-to-toe with big retail chains. We provide a comprehensive digital platform that allows businesses to showcase their full inventory and enable customers to place orders online with ease. More than just a software solution, Localify is an upliftment initiative. We are committed to empowering South African owners—welcoming every registered, locally-owned shop. For those not yet registered, we offer hands-on assistance to get them up and running at a nominal cost, ensuring that no local entrepreneur is left behind in the digital economy.</p>
-  </article>
 </section>
 <br></br>
 <br></br>
-<style>
-.container { 
-  height: 450px;
-  position: relative;
-  border: 5px solid rgb(38, 8, 207); 
-  padding: 30px;
-}
 
-.center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  right: 50;
-
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  padding: 30px;
-}
-.button {
-  background-color: #ffffff;
-  border: none;
-  color: rgb(16, 5, 138);
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-.button1 {border-radius: 2px;}
-.button2 {border-radius: 4px;}
-.button3 {border-radius: 8px;}
-.button4 {border-radius: 12px;}
-.button5 {border-radius: 50%;}
-
-</style>
-</head>
-
-<div class="container">
-      <body>
+<body>
     <h3>Our Services</h3>
+    <a href="services.html">Services</a>
     <p>View our services and choose from our offerings to uplift your business. </p>
 </body>
-  <div class="center">
-<button class="button3"onclick=document.location='file:///C:/Users/User/Documents/GitHub/Localify/services.html'>Our Services</button>
-  </div>
+  
   <img src="Images/Local-shops34.jpg">
-</div>
+
 <br>
 <br>
 
 <footer>
   <p>Localify Created For you!</p>
 </footer>
-</style>
 </html>
