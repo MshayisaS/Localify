@@ -114,6 +114,20 @@ footer a:hover {
 .button4 { border-radius: 12px; }
 .button5 { border-radius: 50%; }
 
+.bg-container {
+  position: relative;
+  background-image: url('images/background.jpg');
+  background-size: cover;
+}
+
+.bg-container::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(255, 255, 255, 0.5); /* 50% white overlay */
+  z-index: 1;
+}
+
 @media (max-width: 768px) {
   nav {
     flex-wrap: wrap;
