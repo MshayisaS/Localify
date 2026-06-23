@@ -119,6 +119,16 @@ footer a:hover {
   background-image: url('images/background.jpg');
   background-size: cover;
 }
+.bg-container {
+  position: relative;
+  background-image: url('images/background2.jpg');
+  background-size: cover;
+}
+.bg-container {
+  position: relative;
+  background-image: url('images/Services-background.jpg');
+  background-size: cover;
+}
 
 .bg-container::after {
   content: "";
